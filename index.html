@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="nav-con">
+                <div class="flash">
+                    <h2>Flashcards</h2>
+                </div>
+                <div class="btn">
+                    <button onclick="showCreateCardBox()">New Card</button>
+                    <button onclick="delFlashCards()">Delete Card</button>
+                </div>
+            </div>
+        </div>
+        <div class="qusblock">
+            <div class="askcard">
+                <h3 style="text-align: center;">Create Flashcard</h3>
+                <label  for="qus">Question</label>
+                <textarea id="qus" ></textarea>
+                <label for="ans">Answer</label>
+                <textarea id="ans"></textarea>
+                <button onclick="addFlashcard()">Save</button>
+                <button onclick="hideCreateBox()">Close</button>
+            </div>
+        </div>
+        <div class="allcards">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

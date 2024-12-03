@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* border: 1px solid black; */
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.nav{
+    border: 0.5px red;
+    width: 100%;
+    /* height: 1rem; */
+    /* margin: 1px; */
+}
+
+.nav-con{
+    display: flex;
+}
+
+.flash{
+    padding: .5rem;
+    /* border: 1px solid black; */
+    width: 40vw;
+}
+.btn{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+}
+.btn button{
+    height: 2rem;
+    width: max-content;
+    margin-left: .5rem;
+}
+/* .cards{
+    display: flex;
+    flex-direction: column;
+} */
+.qusblock{
+    /* border: 1px solid blue; */
+    width: 98%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.askcard{
+    width: fit-content;
+    height: max-content;
+    padding: 0 1.5rem 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    /* border: 1px solid grey; */
+}
+.askcard button{
+    width: fit-content;
+}
+
+textarea{ 
+    width: 95%;  
+    min-height: 20px;  
+    height: 20px;      
+    font-size: 14px;
+    resize: none;    
+    overflow-y: hidden; 
+    margin-top: .2rem;
+    margin-bottom: .5rem;
+    border: none;
+}
+textarea:focus {
+    border: none;      
+    outline: none; 
+}     
+.allcards{
+    /* border: 1px solid yellow; */
+    height: 20vh;
+    width: 100vw;
+}
+
+.allcards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    /* padding: 0 10px; */
+}
+
+.card{
+    height: 200px;
+    width: 370px;
+    word-wrap: break-word;
+    margin: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
